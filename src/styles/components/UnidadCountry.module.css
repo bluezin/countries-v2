@@ -1,0 +1,43 @@
+.name__unit {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.strong__unit {
+  margin-right: 13px;
+}
+.img__country {
+  width: 580px;
+  margin-left: 12px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 900px) {
+  .country__unit {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .information__unit {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .img__center {
+    text-align: center;
+    margin-left: -10px;
+  }
+  .img__country {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .information__unit {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+}

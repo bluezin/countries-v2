@@ -1,0 +1,52 @@
+body {
+  font-family: "Balsamiq Sans", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.color__black {
+  background-color: #334455;
+}
+
+.color__white {
+  box-shadow: 0 0 6px rgb(216, 213, 213);
+  background-color: white;
+}
+
+.div__input {
+  width: 480px;
+  border-radius: 5px;
+  margin: 16px;
+  padding: 18px;
+}
+
+.back {
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+}
+
+.w {
+  color: white;
+}
+.b {
+  color: black;
+}
+
+.flag-div {
+  display: flex;
+  width: 120px;
+  margin: 20px;
+  border-radius: 5px;
+}

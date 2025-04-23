@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Varela+Round&display=swap");
+
+.search {
+  margin-right: 12px;
+  color: rgb(206, 203, 203);
+}
+
+.country {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+
+.country__div {
+  margin: auto;
+}
+
+@media screen and (max-width: 566px) {
+  .div__input {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
