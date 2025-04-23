@@ -1,6 +1,5 @@
 import Head from "next/head";
 import App from "../components/App";
-import "@/styles/global.css";
 
 export default function Home() {
   return (
